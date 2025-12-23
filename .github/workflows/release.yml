@@ -18,7 +18,7 @@ jobs:
           bun-version: latest
       
       - name: Build all platforms
-        run: chmod +x ./build.sh && ./build.sh
+        run: chmod +x ./buildall.sh && ./buildall.sh
       
       - name: List binaries
         run: ls -lh dist/
