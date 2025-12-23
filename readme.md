@@ -13,7 +13,7 @@ Accepts paths and [glob patterns](https://github.com/sindresorhus/globby#globbin
 ### macOS & Linux
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/your-username/your-repo/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/brrock/trash-cli/main/install.sh | bash
 ```
 
 Or specify a version:
