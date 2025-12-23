@@ -7,7 +7,7 @@ BLUE='\033[0;34m'
 NC='\033[0m'
 
 echo -e "${BLUE}Building CLI for all platforms...${NC}\n"
-
+bun i 
 mkdir -p dist
 
 # Bun's supported targets
