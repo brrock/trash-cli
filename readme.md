@@ -8,12 +8,29 @@ In contrast to [`rm`](http://en.wikipedia.org/wiki/Rm_(Unix)) which is [dangerou
 
 Accepts paths and [glob patterns](https://github.com/sindresorhus/globby#globbing-patterns).
 
-## Install
+## Installation
 
-```sh
-npm install --global trash-cli
+### macOS & Linux
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/your-username/your-repo/main/install.sh | bash
 ```
 
+Or specify a version:
+```bash
+curl -fsSL https://raw.githubusercontent.com/your-username/your-repo/main/install.sh | bash -s v1.0.0
+```
+
+### Windows
+
+```powershell
+iwr -Uri "https://raw.githubusercontent.com/brrock/trash-cli/main/install.ps1" -OutFile install.ps1; .\install.ps1
+```
+
+Or specify a version:
+```powershell
+iwr -Uri "https://raw.githubusercontent.com/brrock/trash-cli/main/install.ps1" -OutFile install.ps1; .\install.ps1 -ReleaseTag v1.0.0
+```
 ## Usage
 
 ```

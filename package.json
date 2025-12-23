@@ -1,57 +1,58 @@
 {
-	"name": "trash-cli",
-	"version": "7.0.0",
-	"description": "Move files and folders to the trash",
-	"license": "MIT",
-	"repository": "sindresorhus/trash-cli",
-	"funding": "https://github.com/sponsors/sindresorhus",
-	"author": {
-		"name": "Sindre Sorhus",
-		"email": "sindresorhus@gmail.com",
-		"url": "https://sindresorhus.com"
-	},
-	"type": "module",
-	"bin": {
-		"trash": "./cli.js"
-	},
-	"engines": {
-		"node": ">=20"
-	},
-	"scripts": {
-		"test": "xo && ava"
-	},
-	"files": [
-		"cli.js"
-	],
-	"keywords": [
-		"cli-app",
-		"cli",
-		"trash",
-		"recycle",
-		"bin",
-		"rm",
-		"rmrf",
-		"rimraf",
-		"remove",
-		"delete",
-		"del",
-		"file",
-		"files",
-		"directory",
-		"directories",
-		"folder",
-		"folders",
-		"xdg"
-	],
-	"dependencies": {
-		"meow": "^14.0.0",
-		"trash": "^10.0.0"
-	},
-	"devDependencies": {
-		"ava": "^6.4.1",
-		"execa": "^9.6.0",
-		"path-exists": "^5.0.0",
-		"temp-write": "^6.0.0",
-		"xo": "^1.2.3"
-	}
+  "name": "trash-cli",
+  "version": "7.0.0",
+  "description": "Move files and folders to the trash",
+  "license": "MIT",
+  "repository": "sindresorhus/trash-cli",
+  "funding": "https://github.com/sponsors/sindresorhus",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com"
+  },
+  "type": "module",
+  "bin": {
+    "trash": "./cli.ts",
+    "cli": "./dist/cli-wrapper.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "cli.ts"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    "trash",
+    "recycle",
+    "bin",
+    "rm",
+    "rmrf",
+    "rimraf",
+    "remove",
+    "delete",
+    "del",
+    "file",
+    "files",
+    "directory",
+    "directories",
+    "folder",
+    "folders",
+    "xdg"
+  ],
+  "dependencies": {
+    "meow": "^14.0.0",
+    "trash": "^10.0.0"
+  },
+  "devDependencies": {
+    "ava": "^6.4.1",
+    "execa": "^9.6.0",
+    "path-exists": "^5.0.0",
+    "temp-write": "^6.0.0",
+    "xo": "^1.2.3"
+  }
 }
