@@ -18,7 +18,7 @@ curl -fsSL https://raw.githubusercontent.com/brrock/trash-cli/main/install.sh | 
 
 Or specify a version:
 ```bash
-curl -fsSL https://raw.githubusercontent.com/your-username/your-repo/main/install.sh | bash -s v1.0.0
+curl -fsSL https://raw.githubusercontent.com/brrock/trash-cli/main/install.sh | bash -s v1.0.0
 ```
 
 ### Windows
